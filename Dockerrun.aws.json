@@ -1,0 +1,12 @@
+{
+  "AWSEBDockerrunVersion": 1,
+  "containerDefinitions": [
+    {
+      "name": "server",
+      "image": "{IMAGE}",
+      "essential": true,
+      "memory": 200,
+      "cpu": 1
+    }
+  ]
+}
